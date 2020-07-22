@@ -103,6 +103,7 @@ p{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1.37vh;
 }
 
 .productInfo .sectionIntro{
@@ -184,9 +185,36 @@ p{
   height: 30px;
 }
 
+.uspsBody{
+  padding: 5px 0px;
+}
+
+.uspsBody a{
+  color: #526199;
+  text-decoration: underline;
+}
+
+.uspsHeader{
+  font-family: livermore-script-atf, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #E5A43C;
+  font-size: 2.75vw;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.uspsButton{
+  font-size: 1.5vw;
+  margin-top: 45px;
+  margin-left: 37%;
+  padding: 10px 15px;
+}
+
 #cart{
   height: 50px;
   margin-right: 7vw;
+  cursor: pointer;
 }
 
 #logo{

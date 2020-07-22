@@ -6,29 +6,46 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <div class="header">
-        <a href="https://ableichfeld.github.io/snail-mail/index.html">
-          <img id="logo" src="images/logo.svg" alt="Stylized graphic of a snail shell">
-        </a>
-        <a href="https://ableichfeld.github.io/snail-mail/index.html">
-          <h1 id="logoText">Snail Mail</h1>
-        </a>
-        <a href="https://ableichfeld.github.io/snail-mail/usps.html">
-          <h2 class="menuOption">Support the USPS</h2>
-        </a>
-      </div>
+    <div class="header">
+      <a href="https://ableichfeld.github.io/snail-mail/index.html" onmouseover="snailSpin()" onmouseout="snailSpinRev()">
+        <img id="logo" src="images/logo.svg" alt="Stylized graphic of a snail shell">
+      </a>
+      <a href="https://ableichfeld.github.io/snail-mail/index.html" onmouseover="snailSpin()" onmouseout="snailSpinRev()">
+        <h1 id="logoText">Snail Mail</h1>
+      </a>
+      <div id="spacerSmall"></div>
+      <a href="https://ableichfeld.github.io/snail-mail/index.html">
+        <h2 class="menuOption">Home</h2>
+      </a>
+      <a href="https://ableichfeld.github.io/snail-mail/usps.html">
+        <h2 class="menuOption">Support the USPS</h2>
+      </a>
+      <img id="cart" src="images/cart.svg" alt="an illustration of a shopping cart with a stylized snail in it">
+    </div>
     <div class="body">
-      <div class="snailMenu">
-      </div>
-      <div class="divider">
-      </div>
-      <div class="info">
-      </div>
+      <h2 class="uspsHeader">What's the Deal with USPS?</h2>
+      <p class="uspsBody">Since the beginning of the COVID-19 pandemic, the United States Postal Service — the portion of the Executive Branch of the United States that is responsible for providing postal services in the U.S. — has been facing challenges. The pandemic, which has challenged the entire economy, didn't spare the post office.</p>
+      <p class="uspsBody">Adding to USPS's struggles, Congress and the President were debating how much funding it should get through federal stimulus addressing — and what conditions would come with those funds. In response, people started purchasing sheets of stamps from their local post office to support the agency.</p>
+      <p class="uspsBody"><i>Snail Mail</i> wants to do it's part to help. With the exception of funds reserved for operating costs, all proceeds from our snail cards will go toward purchasing stamps to support USPS. Want to help out too? When placing your order you can choose to add a sheet of stamps to your purchase. You'll come out of it with a sheet of awesome stamps and the postal service will have that extra measure of support.</p>
+      <h2 class="uspsHeader">Why Care About USPS?</h2>
+      <p class="uspsBody">Under normal circumstances the postal service plays a vital role; it gets packages and letters to the far-flung places that companies that deliver mail might not see an incentive to extend to.</p>
+      <p class="uspsBody">But with the pandemic it is even more important. Mail-in-voting, an alternative to standing in line at the polls, reduces spread of COVID-19 while still allowing citizens to participate in the civic experience.</p>
+      <p class="uspsBody">While mail-in-voting is <a href="https://www.washingtonpost.com/politics/2020/04/06/more-voting-by-mail-would-make-2020-election-safer-our-health-it-comes-with-risks-its-own/">not without its challenges</a>, experts point out that voter fraud, one of the main concerns about voting by mail, in generally <a href="https://thehill.com/opinion/campaign/494189-lets-put-the-vote-by-mail-fraud-myth-to-rest">rare in the first place</a>. Furthermore, states that have vote-by-mail systems have <a href="https://www.nytimes.com/article/mail-in-vote-fraud-ballot.html">ways to track misconduct</a>.</p>
+      <p class="uspsBody">At the end of the day, however, <strong>a functional mail-in-voting system requires a functioning postal services</strong>.</p>
+      <a href="https://www.usps.com/"><button class="uspsButton" type="button">Learn more about USPS</button></a>
     </div>
     <div class="footer">
     </div>
 
     <script>
+      function snailSpin(){
+        document.getElementById('logo').style.transform = "rotate(360deg)";
+      }
+
+      function snailSpinRev(){
+        document.getElementById('logo').style.transform = "rotate(0deg)";
+      }
+
     </script>
   </body>
 </html>

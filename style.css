@@ -174,7 +174,7 @@ p{
 
 .snailOption:hover{
   border-color: #E5A43C;
-  box-shadow: 10px 10px 8px #7DA0D3;
+  box-shadow: 5px 5px 8px #7DA0D3;
 }
 
 .snailOption:hover .snailName{

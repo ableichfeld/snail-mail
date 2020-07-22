@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Snail Mail | Greeting Cards</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <a href="https://ableichfeld.github.io/snail-mail/index.html" onmouseover="snailSpin()" onmouseout="snailSpinRev()">
+        <img id="logo" src="images/logo.svg" alt="Stylized graphic of a snail shell">
+      </a>
+      <a href="https://ableichfeld.github.io/snail-mail/index.html" onmouseover="snailSpin()" onmouseout="snailSpinRev()">
+        <h1 id="logoText">Snail Mail</h1>
+      </a>
+      <div id="spacerSmall"></div>
+      <a href="https://ableichfeld.github.io/snail-mail/index.html">
+        <h2 class="menuOption">Home</h2>
+      </a>
+      <a href="https://ableichfeld.github.io/snail-mail/usps.html">
+        <h2 class="menuOption">Support the USPS</h2>
+      </a>
+      <img id="cart" src="images/cart.svg" alt="an illustration of a shopping cart with a stylized snail in it">
+    </div>
+    <div class="body">
+      <div class="productInfo">
+        <div class="productLeft">
+          <img class="productPhoto" src="images/snail2.jpg" alt="an image of a red and orange snail">
+        </div>
+        <div class="productRight">
+          <h3 class="sectionIntro">"Go Check the <i>'Snail-box'</i> "</h3>
+          <div class="intro">
+            <p class="productDescrip">If the postman stopped by it must be time to "go check the <i>'snail-box'</i>! "</p>
+            <p class="productDescrip">This card comes with <i>snapdragon seeds</i> and instructions for an origami flower pot.</p>
+          </div>
+          <form>
+            <label for="radio1">I want to...</label><br>
+            <input type="radio" name="radio1" value="write">
+            <label class="radioLabel" for="write">Write the message by hand</label>
+            <input type="radio" name="radio1" value="type">
+            <label class="radioLabel" for="type">Type the message here</label><br>
+            <label>Would you like to buy a sheet of stamps with this card?</label><br>
+            <input type="radio" name="radio2" value="yes">
+            <span class="radioLabel">Yes<span>
+            <input type="radio" name="radio2" value="no">
+            <span class="radioLabel">No<span><br>
+            <p id="stamps"><i>Why buy stamps? <a href="https://ableichfeld.github.io/snail-mail/usps.html">Read more here</a></i></p>
+            <label for="quantity">Quantity: </label>
+            <input type="number" name="quantity"><br>
+            <button type="button" id="addToCart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+    </div>
+
+    <script>
+      function snailSpin(){
+        document.getElementById('logo').style.transform = "rotate(360deg)";
+      }
+
+      function snailSpinRev(){
+        document.getElementById('logo').style.transform = "rotate(0deg)";
+      }
+
+    </script>
+  </body>
+</html>

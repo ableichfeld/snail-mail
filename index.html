@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Snail Mail | Greeting Cards</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <a href="https://ableichfeld.github.io/snail-mail/index.html" onmouseover="snailSpin()" onmouseout="snailSpinRev()">
+        <img id="logo" src="images/logo.svg" alt="Stylized graphic of a snail shell">
+      </a>
+      <a href="https://ableichfeld.github.io/snail-mail/index.html" onmouseover="snailSpin()" onmouseout="snailSpinRev()">
+        <h1 id="logoText">Snail Mail</h1>
+      </a>
+      <div id="spacer"></div>
+      <a href="https://ableichfeld.github.io/snail-mail/usps.html">
+        <h2 class="menuOption">Support the USPS</h2>
+      </a>
+      <img id="cart" src="images/cart.svg" alt="an illustration of a shopping cart with a stylized snail in it">
+    </div>
+    <div class="body">
+      <h3 class="sectionIntro">Select a Snail:</h3>
+      <div class="snailMenu">
+        <div class="snailOption">
+          <img class="snail" src="images/snail1.jpg" alt="an image of a purple and blue snail">
+          <h4 class="snailName">"You've Got <i>'Snail'</i> "</h4>
+        </div>
+        <div class="snailOption">
+          <img class="snail" src="images/snail2.jpg" alt="an image of a red and orange snail">
+          <h4 class="snailName">"Go Check the <i>'Snail-box'</i> "</h4>
+        </div>
+        <div class="snailOption">
+          <img class="snail" src="images/snail3.jpg" alt="an image of a green and blue snail">
+          <h4 class="snailName">"Waiting For The <i>'Snail-man'</i> "</h4>
+        </div>
+        <div class="snailOption">
+          <img class="snail" src="images/snail4.jpg" alt="an image of blue snail">
+          <h4 class="snailName">"Sending Fan <i>'Snail'</i> "</h4>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <h3 class="sectionIntro">Each snail comes with:</h3>
+      <div class="info">
+        <div class="listItem">
+          <img class="snailBullet" src="images/snail.svg" alt="a yellow illustration of a graphic snail">
+          <h3>Packet of Seeds</h3>
+        </div>
+        <div class="listItem">
+          <img class="snailBullet" src="images/snail.svg" alt="a yellow illustration of a graphic snail">
+          <h3>Origami Flower Pot Instructions</h3>
+        </div>
+        <div class="listItem">
+          <img class="snailBullet" src="images/snail.svg" alt="a yellow illustration of a graphic snail">
+          <h3>Personalized Message</h3>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+    </div>
+
+    <script>
+      function snailSpin(){
+        document.getElementById('logo').style.transform = "rotate(360deg)";
+      }
+
+      function snailSpinRev(){
+        document.getElementById('logo').style.transform = "rotate(0deg)";
+      }
+    </script>
+  </body>
+</html>

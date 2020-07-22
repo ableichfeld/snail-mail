@@ -1,0 +1,225 @@
+@import url("https://use.typekit.net/omh2aer.css");
+@import url("https://use.typekit.net/nge2ysz.css");
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+body{
+  margin: 0px;
+  font-family: bely, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button{
+  padding: 3px 5px;
+  background-color: #526199;
+  color: #E5A43C;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.25vw;
+  border: none;
+  margin-top: 30px;
+}
+
+button:hover{
+  background-color: #7a88b8;
+}
+
+label{
+  font-weight: 700;
+  margin-top: 7.5px;
+}
+
+p{
+  margin: 0px;
+}
+
+.body{
+  min-height: 81.5vh;
+  margin: 0vw 7vw;
+}
+
+.divider{
+  border-bottom: 2px #7f7f7f solid;
+  margin-bottom: 75px;
+}
+
+.footer{
+  background-color: #72BA8B;
+  height: 25px;
+}
+
+.header{
+  background-color: #72BA8B;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info{
+  margin: 0vw 7vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro{
+  margin-bottom: 15px;
+}
+
+.listItem h3{
+  font-size: 1.75vw;
+  display: inline;
+}
+
+.menuOption{
+  font-size: 1.75vw;
+  color: #526199;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  margin-right: 6.35vw;
+}
+
+.menuOption:hover{
+  color: #E5A43C;
+  text-decoration: underline 1.5px;
+}
+
+.productDescrip{
+  margin-top: 0px;
+  margin-bottom: 2.5px;
+}
+
+.productInfo{
+  height: 81.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productInfo .sectionIntro{
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+
+}
+
+.productLeft{
+  width: 45%;
+}
+
+.productPhoto{
+  width: 100%;
+  border: 2px #7f7f7f solid;
+  border-radius: 5px;
+}
+
+.productRight{
+  width: 53%;
+}
+
+.radioLabel{
+  font-weight: 400;
+}
+
+.sectionIntro{
+  font-family: livermore-script-atf, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #E5A43C;
+  font-size: 1.75vw;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.snail{
+  width: 19.25vw;
+  height: 9.625vw;
+}
+
+.snailBullet{
+  width: 55px;
+}
+
+.snailMenu{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7vh;
+}
+
+.snailName{
+  font-style: normal;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 5px 0px;
+  background-color: #72BA8B;
+  width: 100%;
+}
+
+.snailOption{
+  width: 19.25vw;
+  text-align: center;
+  border: 2px #7f7f7f solid;
+  border-radius: 5px;
+}
+
+.snailOption:hover{
+  border-color: #E5A43C;
+  box-shadow: 10px 10px 8px #7DA0D3;
+}
+
+.snailOption:hover .snailName{
+  font-style: italic;
+}
+
+.snailRadioOff{
+  height: 30px;
+}
+
+#cart{
+  height: 50px;
+  margin-right: 7vw;
+}
+
+#logo{
+  margin-left: 7vw;
+  width: 75px;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease;
+}
+
+#logoText{
+  font-family: livermore-script-atf, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #E5A43C;
+  font-size: 5vw;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#spacer{
+  width: 27vw;
+}
+
+#spacerSmall{
+  width: 11.35vw;
+}
+
+#stamps{
+  margin-bottom:10px;
+}
+
+#stamps a{
+  color: #526199;
+  text-decoration: underline;
+}
